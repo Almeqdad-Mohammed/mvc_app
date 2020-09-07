@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "name": "Almeqdad Mohammed",
+            "email": "calmgdad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework",
+            "App\\": "App"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "name": "developer/mvc_app",
+    "require": {
+        "ramsey/uuid": "^4.1",
+        "ext-pdo": "*"
+    }
+}   
